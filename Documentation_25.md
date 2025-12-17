@@ -26,10 +26,10 @@
 (2) 3D meshes (.fbx, png, .glb -> .uasset) - Yiru Yang
         │
         ▼
-[Import into Unreal Engine] - Zhanyi Wu
+[Import into Unreal Engine]
         │
         ▼
-(3) Placed at correct coordinates (Z=0 base) - Zhanyi Wu
+(3) Placed at correct coordinates (Z=0 base)
         │
         ▼
 [Rendered with SUMO traffic data on top]
@@ -388,7 +388,7 @@ python run.py --input /exports/ZH_MLS.fbx --output /exports/ZH_MLS_refined.ply
 <br><br><br><br><br><br><br><br>
 
 
-## 💻 Render - Unreal - Zhanyi Wu
+## 💻 Render - Unreal
 
 
 
