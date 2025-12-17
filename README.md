@@ -1,6 +1,5 @@
 # SUMO2UEBridge (C++)
 
-- Supervisors -  Jonas Egeler, Dr. Ulrike Wissen, MR Team
 - Bridging SUMO (Simulation of Urban Mobility) with Unreal Engine 5.6 via C++
 
 
@@ -94,7 +93,7 @@ MR-Data/
 ```
 L1. Simulation Layer —— SUMO
        ↓ TraCI API
-L2. Visualization Layer —— Input into Unreal Engine - Zhanyi Wu
+L2. Visualization Layer —— Input into Unreal Engine
        ↓ OSC Plugin
 L3. Auralization Layer —— Audio Engine / GPU Audio SDK
 ```
@@ -109,41 +108,16 @@ L3. Auralization Layer —— Audio Engine / GPU Audio SDK
 (2) 3D meshes (.fbx, png, .glb -> .uasset) - Yiru Yang
         │
         ▼
-[Import into Unreal Engine 5.6] - Zhanyi Wu
+[Import into Unreal Engine 5.6] - Yiru Yang
         │
         ▼
-(3) Placed at correct coordinates (Z=0 base) - Zhanyi Wu
+(3) Placed at correct coordinates (Z=0 base)
         │
         ▼
 [Rendered with SUMO traffic data on top]
 ```
 
 
-
-## Quick Start
-
-1. Clone repository
-```
-cd ~/Desktop
-git clone https://github.com/egelerj/SUMO2UEBridge.git
-cd SUMO2UEBridge
-```
-
-2. Import .blend / .json / .uasset into Unreal
-```
-# In Unreal Editor:
-    Import "Unreal_Zurich/" into Content/Geodata/
-# Unreal will automatically convert them to .uasset
-```
-
-3. SUMO2UE - C++ bridge
-```
-cd SUMO2CPP
-mkdir build && cd build
-cmake ..
-make -j8
-./build/sumo2uebridge
-```
 
 ## Unreal Engine to HTC Vive Deployment Guide
 
