@@ -1,4 +1,4 @@
-# SUMO2UEBridge (C++)
+# Multi-view 4D Reconstruction - A Digital Zurich
 
 - Bridging SUMO (Simulation of Urban Mobility) with Unreal Engine 5.6 via C++
 
